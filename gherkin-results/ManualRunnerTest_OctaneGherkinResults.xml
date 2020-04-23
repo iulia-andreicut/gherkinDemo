@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features version="1"><feature name="ButtonsGT" path="src\test\resources\features\ButtonsGT.feature" started="1587469553282" tag=""><file><![CDATA[#normal comment
+Feature: ButtonsGT
+
+  Scenario: Check the buttons 1.2.1
+    Given there is a GT
+    When the user modifies the script from IDE and runs the Pipeline
+    Then the buttons should appear in Octane
+
+  Scenario: Check the text
+    Given there is a TEST
+    When the user modifies the SCRIPT
+    Then the buttons should APPEAR
+
+
+
+]]></file><scenarios><scenario name="Check the buttons 1.2.1"><steps><step duration="694500" name="Given there is a GT" status="passed"/><step duration="33100" name="When the user modifies the script from IDE and runs the Pipeline" status="passed"/><step duration="2126700" name="Then the buttons should appear in Octane" status="passed"/></steps></scenario><scenario name="Check the text"><steps><step duration="2946800" name="Given there is a TEST" status="failed"><error_message><![CDATA[java.lang.AssertionError: expected:<7777> but was:<14>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at MyStepdefs.thereIsATEST(MyStepdefs.java:249)
+	at ✽.there is a TEST(src/test/resources/features/ButtonsGT.feature:10)
+]]></error_message></step><step duration="30100" name="When the user modifies the SCRIPT" status="skipped"/><step duration="10600" name="Then the buttons should APPEAR" status="skipped"/></steps></scenario></scenarios></feature><feature name="CommentsGT" path="src\test\resources\features\CommentsGT.feature" started="1587469553286" tag=""><file><![CDATA[#Auto generated Octane revision tag
+
+#@exclude
+Feature: CommentsGT
+#This is the scenario comment
+  Scenario: Open Feature Dialog in Octane
+    #This is the Given comment
+    Given the following users exist
+    #This is the But comment
+    But Clicking the Create New requirement
+     #This is the And comment
+    And Clicking the Create New defect
+     #This is the When comment
+    When Clicking the New Feature
+    Then I should receive an email with
+]]></file><scenarios><scenario name="Open Feature Dialog in Octane"><steps><step duration="52700" name="Given the following users exist" status="passed"/><step duration="11300" name="But Clicking the Create New requirement" status="passed"/><step duration="11400" name="And Clicking the Create New defect" status="passed"/><step duration="7100" name="When Clicking the New Feature" status="passed"/><step duration="8700" name="Then I should receive an email with" status="passed"/></steps></scenario></scenarios></feature><feature name="LaptopBDD" path="src\test\resources\features\LaptopBDD.feature" started="1587469553287" tag=""><file><![CDATA[Feature: LaptopBDD
+
+  Scenario: Check the laptop
+    Given there is a LAPTOP
+    When the user modifies LAPTOP
+    Then the LAPTOP is modified
+
+  Scenario: Check the keyboard
+    Given there is a KEYBOARD
+    When the user modifies the KEYBOARD
+    Then the KEYBOARD is modified]]></file><scenarios><scenario name="Check the laptop"><steps><step duration="49500" name="Given there is a LAPTOP" status="passed"/><step duration="12800" name="When the user modifies LAPTOP" status="passed"/><step duration="27500" name="Then the LAPTOP is modified" status="passed"/></steps></scenario><scenario name="Check the keyboard"><steps><step duration="56700" name="Given there is a KEYBOARD" status="passed"/><step duration="20800" name="When the user modifies the KEYBOARD" status="passed"/><step duration="21800" name="Then the KEYBOARD is modified" status="passed"/></steps></scenario></scenarios></feature><feature name="OnlineShopping only scenario" path="src\test\resources\features\OnlineShoppingGT.feature" started="1587469553288" tag=""><file><![CDATA[#Auto generated Octane revision tag
+
+Feature: OnlineShopping only scenario
+
+  Scenario: something modified again and again 1.1
+]]></file><scenarios><scenario name="something modified again and again 1.1"><steps/></scenario></scenarios></feature><feature name="Verification" path="src\test\resources\features\Test.feature" started="1587469553288" tag=""><file><![CDATA[Feature:  Verification
+  Scenario: Story for acceptance test
+    Given there is a GT
+    When the user modifies the script from IDE and runs the Pipeline
+    Then the buttons should appear in Octane]]></file><scenarios><scenario name="Story for acceptance test"><steps><step duration="147400" name="Given there is a GT" status="passed"/><step duration="17500" name="When the user modifies the script from IDE and runs the Pipeline" status="passed"/><step duration="14200" name="Then the buttons should appear in Octane" status="passed"/></steps></scenario></scenarios></feature></features>
