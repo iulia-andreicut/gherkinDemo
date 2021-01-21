@@ -104,7 +104,7 @@ public class MyStepdefs {
 
     @Then("I should be served a coffee")
     public void iShouldBeServedACoffee() {
-        assertEquals(16, Calcs.sum(8, 8));
+        assertEquals("16", Calcs.sum(8, 8));
 
     }
 
